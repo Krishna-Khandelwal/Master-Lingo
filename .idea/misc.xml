@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_dashboard.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_english_module.xml" value="0.176" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_forget_pass.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_forget_password.xml" value="0.1" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_language_selection.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_main.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/content_navigation_drawer.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/fragment_help.xml" value="0.4" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/fragment_profile.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/fragment_slideshow.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/menu/activity_main_drawer.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/MasterLingo/app/src/main/res/menu/navigation_drawer.xml" value="0.25677083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

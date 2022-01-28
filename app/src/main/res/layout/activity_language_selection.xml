@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageSelection"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="30dp">
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/bungee"
+        android:text="Select Languages"
+        android:transitionName="logo_text"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="20dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="5">
+
+            <CheckBox
+                android:id="@+id/checkBox_English"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:textColorHighlight="#05006b"
+                android:text="English"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_Hindi"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="Hindi"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_Japanese"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="Japanese"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_German"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="German"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_French"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="French"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_Spanish"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="Spanish"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_Italian"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="Iatalian"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_Russian"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="Russian"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_Chinese"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="Chinese"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox_Mexican"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:text="Mexican"
+                android:textSize="20sp"
+                android:padding="20dp"/>
+
+        </GridLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:text="Cancel"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="20dp"
+            android:text="Confirm" />
+
+    </GridLayout>
+</LinearLayout>

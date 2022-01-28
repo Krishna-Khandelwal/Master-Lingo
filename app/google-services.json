@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746236021182",
+    "project_id": "master-lingo",
+    "storage_bucket": "master-lingo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746236021182:android:04f00a971ee2f8b3dd51ef",
+        "android_client_info": {
+          "package_name": "com.example.masterlingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746236021182-b1gfvhpno6ajsfjrhuoui7scshalveq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJkLySGrQWYYt4nhlluj5IFN9eAJvkLWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746236021182-b1gfvhpno6ajsfjrhuoui7scshalveq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
